@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    position: relative;
+    box-shadow: 0px 1px 1px #ccc;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 5;
+}
+
+.header-nav-container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-nav-container a {
+    text-decoration: none;
+    color: #353535;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.header-nav-left img {
+    width: 140px;
+    vertical-align: middle;
+}
+
+.section-login {
+    height: 800px;
+    background: linear-gradient(to right, #773FED, #AC3EB4, #D63E87);
+    position: relative;
+    box-shadow: 0px 1px 1px #ccc;
+}
+
+.login-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.login-group h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin: 40px 150px;
+}
+
+.login-information {
+    color: #353535;
+}
+
+.login-account-information h2 {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: #727272;
+    font-weight: 550;
+}
+
+.login-account-information-type {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.login-account-information-type-icon {
+    display: flex;
+}
+
+.login-account-information-type-icon img {
+    margin-right: 20px;
+}
+
+.login-account-information-type-icon p {
+    color: #9a9a9a;
+    font-weight: 500;
+}
+
+.forgot-password {
+    color: #9a9a9a; 
+    text-align: right;
+    margin-right: 40px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.login-btn-container {
+    text-align: center;
+}
+.login-btn {
+    border-radius: 30px;
+    background: linear-gradient(to right, #773FED, #AC3EB4, #D63E87);
+    border: none;
+    width: 280px;
+    padding: 10px 0px;
+    margin-bottom: 40px;
+}
+
+.login-btn a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.login-btn a:hover {
+    color: #D63E87;
+}
+
+.signup {
+    text-align: center;
+    font-weight: 550;
+    color: #727272;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.signup p {
+    margin-bottom: 20px;
+}
+
+.footer {
+    font-size: 14px;
+}
+
+.footer-group {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 1200px;
+    color: #353535;
+}
+
+.footer-logo-copyright {
+    padding-top: 15px;
+    margin-left: 30px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-subfooter {
+    display: flex;
+}
+
+.footer-subfooter-item {
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.footer-subfooter h5, .footer-subfooter a {
+    margin-bottom: 20px;
+}
+
+.footer-subfooter h5 {
+    font-weight: 600;
+}
+
+.footer-subfooter a {
+    display: block;
+    text-decoration: none;
+    color: #353535;
+}
+
+.footer-subfooter a:hover {
+    color: #D63E87;
+}
+
+.footer-disclaimer {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
